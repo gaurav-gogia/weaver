@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 import uvicorn
 
 app = FastAPI()
-model = SentenceTransformer("intfloat/e5-base-v2")
+model = SentenceTransformer("nomic-ai/nomic-embed-code")
 
 class EmbedRequest(BaseModel):
     text: str
