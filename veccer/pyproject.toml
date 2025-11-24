@@ -6,12 +6,14 @@ authors = [
     {name = "Gaurav Gogia",email = "16029099+gaurav-gogia@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11,<3.15"
 dependencies = [
-    "fastapi (>=0.115.12,<0.116.0)",
-    "uvicorn[standard] (>=0.34.2,<0.35.0)",
-    "sentence-transformers (>=4.1.0,<5.0.0)",
-    "pydantic (>=2.12.3,<3.0.0)"
+    "pydantic (>=2.12.3,<3.0.0)",
+    "fastapi (>=0.121.3,<0.122.0)",
+    "uvicorn (>=0.38.0,<0.39.0)",
+    "torch (>=2.9.1,<3.0.0)",
+    "scipy (>=1.16.3,<2.0.0)",
+    "sentence-transformers (>=5.1.2,<6.0.0)"
 ]
 
 [tool.poetry]
